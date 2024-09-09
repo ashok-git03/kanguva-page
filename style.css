@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://wallpaperaccess.com/full/2413220.jpg");
+  border-top: 10px solid red;
+}
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: antiquewhite ; */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(48, 24, 24);
+}
+.first-header {
+  display: flex;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  justify-content: space-between;
+  align-content: center;
+  background-color: rgb(109, 54, 54);
+  color: aliceblue;
+}
+.nav-header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.nav-header a:hover {
+  /*cursor: cell;*/
+  text-decoration: aqua;
+  color: brown;
+}
+.nav-header a:link,
+.nav-header a:active,
+.nav-header a:visited {
+  text-decoration: none;
+  color: aliceblue;
+}
+.studio {
+  display: flex;
+}
+.left-box {
+  width: 250px;
+  background-color: rgb(252, 220, 181);
+  border-top: 5px solid rgb(234, 151, 36);
+  border-bottom: 5px solid rgb(234, 151, 36);
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.title-1 {
+  display: inline-block;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.list1 {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 10px;
+  align-items: center;
+}
+.list1 div p {
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+.list1 div a:hover {
+  cursor: grab;
+  color: white;
+  background-color: aqua;
+  text-decoration: underline;
+}
+.list1 div a:link,
+.list1 div a:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+.list1 div a:visited {
+  color: brown;
+}
+.boxes {
+  display: flex;
+  gap: 50px;
+}
+.two-box {
+  background-color: aliceblue;
+  width: 500px;
+  position: relative;
+}
+.top {
+  display: inline-block;
+  color: aliceblue;
+  background-color: rgb(109, 54, 54);
+  padding: 5px;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+}
+.credits {
+  border-left: 100px;
+}
